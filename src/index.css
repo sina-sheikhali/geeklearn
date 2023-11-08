@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: IRANSans;
-  src: url(../src/fonts/IRANSans/IRANSans.ttf);
+  font-family: Samim;
+  src: url(../src/fonts/IRANSans/Samim-FD.ttf);
 }
 
 /* Start reset css */
@@ -137,16 +137,16 @@ table {
 
 /* Start Default css */
 :root {
-  --primary-font: "IRANSans";
+  --primary-font: "Samim";
 }
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 body {
-  line-height: 1.6;
-  font-size: 1.6rem;
+  /* line-height: 1.6;
+  font-size: 1.6rem; */
   font-family: var(--primary-font);
   direction: rtl;
 }
