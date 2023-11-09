@@ -3,13 +3,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
-    <div className="shadow-md mx-1">
-      <div className="container max-w-[1280px] flex justify-between">
+    <div className="shadow-md">
+      <div className="container 2xl:max-w-[1280px] flex justify-between px-1">
         <div className="flex justify-start items-center px-1">
           <Link to="#">
             <img src="/images/logo.png" alt="" className="w-16 py-1" />
           </Link>
-          <ul className="flex items-center h-full gap-x-5 mr-10 px-2 text-[1.1rem]">
+          <ul className="hidden lg:flex items-center h-full gap-x-5 mr-10 px-2 text-[1.1rem]">
             <li className="group flex items-center py-1 relative h-full">
               <Link
                 to="#"
@@ -93,7 +93,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-2.5">
           <div>
             <a
               href="#"
@@ -105,9 +105,17 @@ export default function Navbar() {
               </span>
             </a>
           </div>
+          <div>
+            <a
+              href="#"
+              className="flex lg:hidden items-center justify-center p-2 bg-[#F8F9FB] text-[#acadb1]"
+            >
+              <i className="fa fa-bars w-6 h-6"></i>
+            </a>
+          </div>
           <a
             href="#"
-            className="flex items-center justify-center py-2.5 px-3.5 relative bg-mainColor text-white gap-x-2 hover:bg-[#00b2da] transition-colors rounded-sm"
+            className="hidden lg:flex items-center justify-center py-2.5 px-3.5 relative bg-mainColor text-white gap-x-2 hover:bg-[#00b2da] transition-colors rounded-sm"
           >
             <i className="fa fa-user-circle w-6 h-6"></i>
             ورود / ثبت نام
