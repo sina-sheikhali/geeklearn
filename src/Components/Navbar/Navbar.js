@@ -115,7 +115,7 @@ export default function Navbar() {
           </div>
           <a
             href="#"
-            className="hidden lg:flex items-center justify-center py-2.5 px-3.5 relative bg-mainColor text-white gap-x-2 hover:bg-[#00b2da] transition-colors rounded-sm"
+            className="hidden lg:flex items-center justify-center py-2.5 px-3.5 relative bg-mainColor text-white gap-x-2 hover:bg-hoverColor transition-colors rounded-sm"
           >
             <i className="fa fa-user-circle w-6 h-6"></i>
             ورود / ثبت نام

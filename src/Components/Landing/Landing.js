@@ -34,7 +34,7 @@ export default function Landing() {
                 placeholder="چی دوست داری یاد بگیری..؟"
                 className="w-full h-14 border border-solid border-[#ced4da] rounded-md px-3 "
               />
-              <button className="absolute left-1 top-1 h-12 bg-mainColor px-4 text-white rounded-md hover:bg-[#00b2da] transition-colors">
+              <button className="absolute left-1 top-1 h-12 bg-mainColor px-4 text-white rounded-md hover:bg-hoverColor transition-colors">
                 <i className="fa fa-search h-5 w-5"></i>
               </button>
             </div>
