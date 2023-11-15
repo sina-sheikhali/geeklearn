@@ -15,7 +15,7 @@ export default function CourseBox() {
       <div className="p-4 border border-solid border-[#00000020]">
         <a
           href="#"
-          className="text-lg block whitespace-nowrap overflow-hidden text-ellipsis mb-[30px]"
+          className="text-lg block whitespace-nowrap overflow-hidden text-ellipsis mb-[30px] hover:text-mainColor transition-colors"
         >
           دوره آموزش دیجیتال مارکتینگ واقعی
         </a>

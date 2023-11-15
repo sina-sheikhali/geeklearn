@@ -1,15 +1,15 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import "swiper/css";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import CourseBox from "../CourseBox/CourseBox";
 
 export default function LatestCourses() {
   return (
-    <div className="container max-w-[1280px] mt-20 p-5">
+    <div className="container max-w-[1280px] my-20 p-5">
       <SectionHeader />
-      <div className="mt-5 p-2.5 flex swiper-container">
+      <div className="mt-5 p-2.5 flex">
         <Swiper
           breakpoints={{
             320: {

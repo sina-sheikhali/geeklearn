@@ -214,8 +214,9 @@
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
   /* my-style*/
-  background-color: #fff;
+  background-color: #36c9f4;
   color: #56626e;
+  color: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: all 0.3s ease;
   width: 50px;
@@ -247,8 +248,15 @@
   font-variant: initial;
   line-height: 1;
   /* My-style */
+  position: absolute;
   font-size: 1.1rem;
   font-weight: 900;
+}
+.swiper-button-next:after {
+  right: 15px;
+}
+.swiper-button-prev:after {
+  left: 15px;
 }
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
