@@ -7,7 +7,11 @@ import "swiper/css";
 export default function LastArticle() {
   return (
     <div className="container max-w-[1280px] bg-[url('https://xigmalearn.ir/themes/education/eduBerg/assets/img/blog-bg.svg')] bg-left-bottom bg-contain bg-no-repeat my-20 p-5 ">
-      <SectionHeader />
+      <SectionHeader
+        title={"جدیدترین مقالات"}
+        desc={"پیش به سوی ارتقای دانش"}
+        btnTitle={"همه مقالات"}
+      />
       <div className="mt-5 p-2.5 flex">
         <Swiper
           breakpoints={{

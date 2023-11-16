@@ -8,7 +8,11 @@ import CourseBox from "../CourseBox/CourseBox";
 export default function LatestCourses() {
   return (
     <div className="container max-w-[1280px] my-20 p-5">
-      <SectionHeader />
+      <SectionHeader
+        title={"جدیدترین دوره ها"}
+        desc={"رشد شما با یادگیری آغاز میشود..."}
+        btnTitle={"همه دوره ها"}
+      />
       <div className="mt-5 p-2.5 flex">
         <Swiper
           breakpoints={{
