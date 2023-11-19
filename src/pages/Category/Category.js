@@ -3,6 +3,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import "./Category.css";
 import Footer from "../../Components/Footer/Footer";
 import CourseBox from "../../Components/CourseBox/CourseBox";
+import Pagination from "../../Components/Pagination/Pagination";
 export default function Category() {
   return (
     <div className="">
@@ -51,51 +52,8 @@ export default function Category() {
           <CourseBox />
           <CourseBox />
         </div>
-        <nav className="flex items-center justify-center p-1 mt-5">
-          <ul className="flex">
-            <li className="">
-              <a
-                href="#"
-                className="border border-solid border-[#dee2e6] block p-2  text-[#56626E] mr-[-1px] rounded-tr-sm rounded-br-sm hover:text-mainColor hover:bg-gray-100 transition-colors"
-              >
-                صفحه قبل
-              </a>
-            </li>
-            <li className="">
-              <a
-                href="#"
-                className="border border-solid border-[#dee2e6] block p-2 text-[#56626E] mr-[-1px] rounded-tr-sm rounded-br-sm hover:text-mainColor hover:bg-gray-100 transition-colors"
-              >
-                1
-              </a>
-            </li>
-            <li className="">
-              <a
-                href="#"
-                className="border border-solid border-[#dee2e6] block p-2 text-[#56626E] mr-[-1px] rounded-tr-sm rounded-br-sm bg-mainColor text-white hover:text-mainColor hover:bg-gray-100 transition-colors"
-              >
-                2
-              </a>
-            </li>
-            <li className="">
-              <a
-                href="#"
-                className="border border-solid border-[#dee2e6] block p-2 text-[#56626E] mr-[-1px] rounded-tr-sm rounded-br-sm hover:text-mainColor hover:bg-gray-100 transition-colors"
-              >
-                3
-              </a>
-            </li>
-            <li className="">
-              <a
-                href="#"
-                className="border border-solid border-[#dee2e6] block p-2 text-[#56626E] mr-[-1px] rounded-tr-sm rounded-br-sm hover:text-mainColor hover:bg-gray-100 transition-colors"
-              >
-                صفحه بعد
-              </a>
-            </li>
-          </ul>
-        </nav>
       </div>
+      <Pagination />
       <Footer />
     </div>
   );
