@@ -7,7 +7,7 @@ const routes = [
   { path: "/", element: <Index /> },
   { path: "/course-info/:courseName", element: <CourseInfo /> },
   { path: "/article-info/:articleName", element: <ArticleInfo /> },
-  { path: "/category/:categoryName", element: <Category /> },
+  { path: "/category-info/:categoryName", element: <Category /> },
 ];
 
 export default routes;
