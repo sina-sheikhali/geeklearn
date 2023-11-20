@@ -3,9 +3,9 @@ import React from "react";
 export default function SectionHeader({ title, desc, btnTitle }) {
   return (
     <div className="flex items-center justify-between">
-      <div className="flex flex-col items-center gap-2">
-        <h3 className="text-3xl">{title}</h3>
-        <span>{desc}</span>
+      <div className="flex flex-col items-start gap-2">
+        <h3 className="md:text-3xl text-xl font-bold">{title}</h3>
+        <span className="hidden sm:block">{desc}</span>
       </div>
 
       {btnTitle ? (
