@@ -13,12 +13,12 @@ export default function Navbar() {
             <li className="group flex items-center py-1 relative h-full">
               <Link
                 to="#"
-                className="group-hover:text-mainColor transition-colors"
+                className="group-hover:text-mainColor transition-colors "
               >
                 فرانت
                 <i className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5"></i>
               </Link>
-              <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)]">
+              <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)] z-10">
                 <li className="text-gray-600 text-sm hover:bg-mainColor hover:text-white px-2 transition-colors duration-200">
                   <Link
                     to="#"
@@ -93,7 +93,7 @@ export default function Navbar() {
                 امنیت
                 <i className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5"></i>
               </Link>
-              <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)]">
+              <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)] z-10">
                 <li className="text-gray-600 text-sm hover:bg-mainColor hover:text-white px-2 transition-colors duration-200">
                   <Link
                     to="#"
@@ -152,7 +152,7 @@ export default function Navbar() {
                 پایتون
                 <i className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5"></i>
               </Link>
-              <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)]">
+              <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)] z-10">
                 <li className="text-gray-600 text-sm hover:bg-mainColor hover:text-white px-2 transition-colors duration-200">
                   <Link
                     to="#"

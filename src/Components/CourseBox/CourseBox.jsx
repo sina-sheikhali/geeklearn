@@ -29,14 +29,14 @@ export default function CourseBox() {
             <i className="fa-regular fa-star text-[#F9A134]"></i>
           </div>
           <span className="flex items-center gap-1">
-            <i class="fa fa-video"></i>
+            <i className="fa fa-video"></i>
             محمد گلهایی
           </span>
         </div>
       </div>
       <div className="p-5 flex justify-between items-center">
         <span className="flex items-center gap-1">
-          <i class="fa-regular fa-user"></i>
+          <i className="fa-regular fa-user"></i>
           417
         </span>
         <span>123,000 تومان</span>

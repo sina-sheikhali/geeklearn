@@ -1,22 +1,19 @@
 import React from "react";
-import Navbar from "../../Components/Navbar/Navbar";
 import "./Category.css";
-import Footer from "../../Components/Footer/Footer";
 import CourseBox from "../../Components/CourseBox/CourseBox";
 import Pagination from "../../Components/Pagination/Pagination";
 export default function Category() {
   return (
     <div className="">
-      <Navbar />
       <div className="mt-5 container max-w-[1280px] px-2">
         <div className="p-3 shadow-[0_0_13px_8px_rgba(70,72,77,0.08)]">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-x-3">
               <div className="border border-solid border-gray-300 px-2 py-1.5 bg-blue-600 text-white">
-                <i class="fas fa-border-all"></i>
+                <i className="fas fa-border-all"></i>
               </div>
               <div className="border border-solid border-gray-300 px-2 py-1.5">
-                <i class="fas fa-align-left"></i>
+                <i className="fas fa-align-left"></i>
               </div>
               <div>
                 <span className="flex items-center gap-x-2 border border-solid border-gray-300 p-2 text-sm">
@@ -54,7 +51,6 @@ export default function Category() {
         </div>
       </div>
       <Pagination />
-      <Footer />
     </div>
   );
 }
