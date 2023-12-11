@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar />
       {url === "/" ? <Landing /> : null}
-      <div>{router}</div>;
+      <div>{router}</div>
       <Footer />
     </>
   );
