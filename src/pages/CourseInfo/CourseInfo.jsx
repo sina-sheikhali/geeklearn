@@ -1,8 +1,9 @@
 import React from "react";
-
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import CourseDetailBox from "../../Components/CourseDetailBox/CourseDetailBox";
 import LatestCourses from "../../Components/LatestCourses/LatestCourses";
+import CommentTextArea from "../../Components/CommentTextArea/CommentTextAera.jsx/CommentTextArea";
+import AccordionCourse from "../../Components/Accordion/AccordionCourse";
 import "./CourseInfo.css";
 export default function CourseInfo() {
   return (
@@ -233,7 +234,7 @@ export default function CourseInfo() {
             {/* Finish teacher info box */}
 
             {/* Start course introduction */}
-            <div className="bg-white p-5 mt-5 mb-2 rounded-sm shadow-[0_5px_30px_rgba(70,72,77,0.08)]">
+            <div className="bg-white p-5 my-5  rounded-sm shadow-[0_5px_30px_rgba(70,72,77,0.08)]">
               <div className="gap-y-5 text-[#7b868a] mt-2">
                 <h3 className="text-xl md:text-2xl leading-10 p-1 font-bold inline border-b-2 border-solid border-mainColor text-black">
                   آموزش 20 کتابخانه جاوااسکریپت برای بازار کار
@@ -285,31 +286,18 @@ export default function CourseInfo() {
                   راحتی بتوانید آن را یاد بگیرید.
                 </p>
               </div>
-              <div className="mt-10 border border-solid border-gray-100  p-3 ">
-                <div className="flex items-center justify-between bg-gray-100 p-3 rounded-lg my-3">
-                  <i className="fas fa-bars"></i>
-                  <div className="flex items-center justify-between w-4/5">
-                    <span className="text-lg">فصل اول:مقدمه</span>
-                    <span className="text-[#7f8698] text-sm">12 جلسه</span>
-                  </div>
-                  <i className="fa-solid fa-chevron-left"></i>
-                </div>
-                <div className="flex items-center justify-between bg-gray-100 p-3 rounded-lg my-3">
-                  <i className="fas fa-bars"></i>
-                  <div className="flex items-center justify-between w-4/5">
-                    <span className="text-lg">فصل اول:مقدمه</span>
-                    <span className="text-[#7f8698] text-sm">12 جلسه</span>
-                  </div>
-                  <i className="fa-solid fa-chevron-left"></i>
-                </div>
+              <div className="flex flex-col gap-5 mt-10 border border-solid border-gray-100  p-3 ">
+                <AccordionCourse />
+                <AccordionCourse />
               </div>
             </div>
             {/* Finish course introduction */}
+            <CommentTextArea />
           </div>
           {/* Finish right section */}
           {/* Start left section */}
           <aside className="col-span-12 lg:col-span-4">
-            <div className="bg-white p-5 mt-1 rounded-sm shadow-[0_5px_30px_rgba(70,72,77,0.08)]">
+            <div className="bg-white p-5 mt-1 rounded-sm shadow-[0_5px_30px_rgba(70,72,77,0.08)] hidden lg:block">
               <div className="flex items-center justify-center gap-x-1 text-white shadow-[0_5px_30px_rgba(70,72,77,0.08)] bg-mainColor p-4 rounded-lg mb-3">
                 <span className="font-bold">قیمت:</span>
                 <span className="font-bold">250,000 تومان</span>
