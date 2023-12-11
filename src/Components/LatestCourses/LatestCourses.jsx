@@ -12,6 +12,7 @@ export default function LatestCourses() {
         title={"جدیدترین دوره ها"}
         desc={"رشد شما با یادگیری آغاز میشود..."}
         btnTitle={"همه دوره ها"}
+        btnHref={"courses"}
       />
       <div className="mt-5 p-2.5 flex">
         <Swiper

@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function SectionHeader({ title, desc, btnTitle }) {
+export default function SectionHeader({ title, desc, btnTitle, btnHref }) {
   return (
     <div className="flex items-center justify-between">
       <div className="flex flex-col items-start gap-2">
@@ -10,12 +11,12 @@ export default function SectionHeader({ title, desc, btnTitle }) {
 
       {btnTitle ? (
         <div>
-          <a
-            href="#"
+          <Link
+            to={`/${btnHref}`}
             className="bg-mainColor hover:bg-hoverColor text-white py-1.5 px-3 rounded-md"
           >
             {btnTitle}
-          </a>
+          </Link>
         </div>
       ) : null}
     </div>
