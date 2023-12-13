@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/geeklearn/static/css/main.747c7f31.css",
+    "main.js": "/geeklearn/static/js/main.6e6431d5.js",
+    "static/media/header-bg.png": "/geeklearn/static/media/header-bg.1ec0d32e9ecc2e319fe0.png",
+    "static/media/Samim-FD.ttf": "/geeklearn/static/media/Samim-FD.15c65e7d33ac6dc91269.ttf",
+    "index.html": "/geeklearn/index.html",
+    "main.747c7f31.css.map": "/geeklearn/static/css/main.747c7f31.css.map",
+    "main.6e6431d5.js.map": "/geeklearn/static/js/main.6e6431d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.747c7f31.css",
+    "static/js/main.6e6431d5.js"
+  ]
+}
