@@ -22,11 +22,11 @@ export default function CourseBox() {
         </a>
         <div className="flex items-center justify-between">
           <div>
-            <i className="fa-regular fa-star text-[#F9A134]"></i>
-            <i className="fa-regular fa-star text-[#F9A134]"></i>
-            <i className="fa-regular fa-star text-[#F9A134]"></i>
-            <i className="fa-regular fa-star text-[#F9A134]"></i>
-            <i className="fa-regular fa-star text-[#F9A134]"></i>
+            <i className="fa fa-star text-[#F9A134]"></i>
+            <i className="fa fa-star text-[#F9A134]"></i>
+            <i className="fa fa-star text-[#F9A134]"></i>
+            <i className="fa fa-star text-[#F9A134]"></i>
+            <i className="fa fa-star text-[#F9A134]"></i>
           </div>
           <span className="flex items-center gap-1">
             <i className="fa fa-video"></i>

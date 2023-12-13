@@ -6,7 +6,7 @@ export default function ArticleBox() {
       <div className="w-full">
         <a href="#" className="flex overflow-hidden">
           <img
-            src="/images/article-img.jpg"
+            src="images/article-img.jpg"
             alt=""
             className="w-full rounded-t-lg hover:scale-[1.15] hover:rotate-2 transition-transform"
           />

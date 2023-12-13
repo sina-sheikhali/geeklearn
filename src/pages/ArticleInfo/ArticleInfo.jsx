@@ -1,7 +1,7 @@
 import React from "react";
 import "./ArticleInfo.css";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
-import CommentTextArea from "../../Components/CommentTextArea/CommentTextAera.jsx/CommentTextArea";
+import CommentTextArea from "../../Components/CommentTextArea/CommentTextArea";
 export default function ArticleInfo() {
   return (
     <div>
@@ -49,7 +49,7 @@ export default function ArticleInfo() {
                 </div>
               </div>
               <img
-                src="/images/redux-logo.png"
+                src="images/redux-logo.png"
                 alt="Redux-logo"
                 className="border border-solid border-slate-400"
               />

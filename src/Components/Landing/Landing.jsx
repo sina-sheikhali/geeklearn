@@ -68,7 +68,7 @@ export default function Landing() {
             </div>
           </div>
           <div className="hidden lg:flex justify-end ">
-            <img src="/images/header-left-bg_prev_ui.png" alt="" className="" />
+            <img src="images/header-left-bg_prev_ui.png" alt="" className="" />
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container 2xl:max-w-[1280px] flex justify-between px-1">
         <div className="flex justify-start items-center px-1">
           <Link to="#">
-            <img src="/images/logo.png" alt="" className="w-16 py-1" />
+            <img src="images/logo.png" alt="" className="w-16 py-1" />
           </Link>
           <ul className="hidden lg:flex items-center h-full gap-x-6 mr-10 px-2 text-[1.1rem]">
             <li className="group flex items-center py-1 relative h-full">

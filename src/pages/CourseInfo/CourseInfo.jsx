@@ -2,7 +2,7 @@ import React from "react";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import CourseDetailBox from "../../Components/CourseDetailBox/CourseDetailBox";
 import LatestCourses from "../../Components/LatestCourses/LatestCourses";
-import CommentTextArea from "../../Components/CommentTextArea/CommentTextAera.jsx/CommentTextArea";
+import CommentTextArea from "../../Components/CommentTextArea/CommentTextArea";
 import AccordionCourse from "../../Components/Accordion/AccordionCourse";
 import "./CourseInfo.css";
 export default function CourseInfo() {
@@ -211,7 +211,7 @@ export default function CourseInfo() {
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-x-5 text-[#7b868a]">
                   <img
-                    src="/images/profile-teacher.jpg"
+                    src="images/profile-teacher.jpg"
                     alt=""
                     className="h-14 w-14 rounded-full object-cover"
                   />
@@ -240,7 +240,7 @@ export default function CourseInfo() {
                   آموزش 20 کتابخانه جاوااسکریپت برای بازار کار
                 </h3>
                 <img
-                  src="/images/js-intro.jpg"
+                  src="images/js-intro.jpg"
                   alt=""
                   className="w-full rounded-xl my-7"
                 />
