@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import LandingCount from "../LandingCount/LandingCount";
+import { FaSearch } from "react-icons/fa";
 export default function Landing() {
   return (
     <div className="bg-[url('../public/images/header-bg.png')] bg-[#F8F9FA] bg-no-repeat bg-cover py-10">
@@ -35,7 +36,7 @@ export default function Landing() {
                 className="w-full h-14 border border-solid border-[#ced4da] rounded-md px-3 "
               />
               <button className="absolute left-1 top-1 h-12 bg-mainColor px-4 text-white rounded-md hover:bg-hoverColor transition-colors">
-                <i className="fa fa-search h-5 w-5"></i>
+                <FaSearch className="fa fa-search h-6 w-6" />
               </button>
             </div>
             <div className="flex justify-between items-center lg:w-3/4 w-full mt-12">

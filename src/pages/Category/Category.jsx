@@ -2,6 +2,10 @@ import React from "react";
 import "./Category.css";
 import CourseBox from "../../Components/CourseBox/CourseBox";
 import Pagination from "../../Components/Pagination/Pagination";
+import { FaBorderAll } from "react-icons/fa6";
+import { MdFormatAlignLeft } from "react-icons/md";
+import { FaAngleDown } from "react-icons/fa";
+import { IoSearchSharp } from "react-icons/io5";
 export default function Category() {
   return (
     <div className="">
@@ -10,15 +14,15 @@ export default function Category() {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-x-3">
               <div className="border border-solid border-gray-300 px-2 py-1.5 bg-blue-600 text-white">
-                <i className="fas fa-border-all"></i>
+                <FaBorderAll />
               </div>
               <div className="border border-solid border-gray-300 px-2 py-1.5">
-                <i className="fas fa-align-left"></i>
+                <MdFormatAlignLeft />
               </div>
               <div>
                 <span className="flex items-center gap-x-2 border border-solid border-gray-300 p-2 text-sm">
                   مرتب سازی پیش فرض
-                  <i className="fas fa-angle-down"></i>
+                  <FaAngleDown />
                 </span>
                 <ul className="hidden">
                   <li>مرتب سازی پیش فرض</li>
@@ -37,7 +41,7 @@ export default function Category() {
                 className="py-1 px-1 border border-solid border-gray-300"
               />
               <button className="absolute top-2 left-2">
-                <i className="fa fa-search w-3 h-3 text-gray-500"></i>
+                <IoSearchSharp className="text-gray-500" />
               </button>
             </div>
           </div>

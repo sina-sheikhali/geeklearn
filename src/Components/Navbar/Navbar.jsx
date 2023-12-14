@@ -1,5 +1,8 @@
 import React from "react";
-
+import { FaAngleDown } from "react-icons/fa6";
+import { FaUserCircle } from "react-icons/fa";
+import { RiShoppingCartFill } from "react-icons/ri";
+import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
@@ -13,10 +16,10 @@ export default function Navbar() {
             <li className="group flex items-center py-1 relative h-full">
               <Link
                 to="#"
-                className="group-hover:text-mainColor transition-colors "
+                className="flex items-center group-hover:text-mainColor transition-colors  "
               >
                 فرانت
-                <i className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5"></i>
+                <FaAngleDown className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5" />
               </Link>
               <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)] z-10">
                 <li className="text-gray-600 text-sm hover:bg-mainColor hover:text-white px-2 transition-colors duration-200">
@@ -88,10 +91,10 @@ export default function Navbar() {
             <li className="group flex items-center py-1 relative h-full">
               <Link
                 to="#"
-                className="group-hover:text-mainColor transition-colors"
+                className="flex items-center group-hover:text-mainColor transition-colors"
               >
                 امنیت
-                <i className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5"></i>
+                <FaAngleDown className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5" />
               </Link>
               <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)] z-10">
                 <li className="text-gray-600 text-sm hover:bg-mainColor hover:text-white px-2 transition-colors duration-200">
@@ -147,10 +150,10 @@ export default function Navbar() {
             <li className="group flex items-center py-1 relative h-full">
               <Link
                 to="#"
-                className="group-hover:text-mainColor transition-colors"
+                className="flex items-center group-hover:text-mainColor transition-colors"
               >
                 پایتون
-                <i className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5"></i>
+                <FaAngleDown className="fa fa-angle-down group-hover:rotate-180 group-hover:text-mainColor transition-transform duration-300 text-sm text-gray-500 mr-1.5" />
               </Link>
               <ul className="invisible group-hover:visible flex flex-col absolute w-52 top-[70px] right-0 bg-white rounded-sm shadow-[0_0_10px_0_rgba(0,0,0,0.12)] z-10">
                 <li className="text-gray-600 text-sm hover:bg-mainColor hover:text-white px-2 transition-colors duration-200">
@@ -187,7 +190,7 @@ export default function Navbar() {
               href="#"
               className="relative flex items-center justify-center p-2 bg-[#F8F9FB] text-[#acadb1]"
             >
-              <i className="fa fa-shopping-cart w-6 h-6"></i>
+              <RiShoppingCartFill className="w-7 h-7" />
               <span className="flex items-center justify-center rounded-full bg-[#ec4b5c] absolute bottom-0 right-0 h-5 w-5 text-xs text-white">
                 2
               </span>
@@ -198,14 +201,14 @@ export default function Navbar() {
               href="#"
               className="flex lg:hidden items-center justify-center p-2 bg-[#F8F9FB] text-[#acadb1]"
             >
-              <i className="fa fa-bars w-6 h-6"></i>
+              <FaBars className="w-6 h-6" />
             </a>
           </div>
           <a
             href="#"
             className="hidden lg:flex items-center justify-center py-2.5 px-3.5 relative bg-mainColor text-white gap-x-2 hover:bg-hoverColor transition-colors rounded-sm"
           >
-            <i className="fa fa-user-circle w-6 h-6"></i>
+            <FaUserCircle className="w-6 h-6" />
             ورود / ثبت نام
           </a>
         </div>

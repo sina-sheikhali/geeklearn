@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FaStar } from "react-icons/fa";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
 export default function CourseBox() {
   return (
     <div className="border border-solid border-[#00000020] rounded-lg overflow-hidden">
@@ -21,22 +23,22 @@ export default function CourseBox() {
           دوره آموزش دیجیتال مارکتینگ واقعی
         </a>
         <div className="flex items-center justify-between">
-          <div>
-            <i className="fa fa-star text-[#F9A134]"></i>
-            <i className="fa fa-star text-[#F9A134]"></i>
-            <i className="fa fa-star text-[#F9A134]"></i>
-            <i className="fa fa-star text-[#F9A134]"></i>
-            <i className="fa fa-star text-[#F9A134]"></i>
+          <div className="flex">
+            <FaStar className="w-5 h-5 text-[#F9A134]" />
+            <FaStar className="w-5 h-5 text-[#F9A134]" />
+            <FaStar className="w-5 h-5 text-[#F9A134]" />
+            <FaStar className="w-5 h-5 text-[#F9A134]" />
+            <FaStar className="w-5 h-5 text-[#F9A134]" />
           </div>
           <span className="flex items-center gap-1">
-            <i className="fa fa-video"></i>
+            <FaChalkboardTeacher className="w-5 h-5 text-gray-500" />
             محمد گلهایی
           </span>
         </div>
       </div>
       <div className="p-5 flex justify-between items-center">
         <span className="flex items-center gap-1">
-          <i className="fa-regular fa-user"></i>
+          <FaUserAlt className="text-gray-500" />
           417
         </span>
         <span>123,000 تومان</span>

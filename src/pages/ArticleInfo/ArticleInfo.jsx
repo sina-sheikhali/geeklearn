@@ -2,6 +2,14 @@ import React from "react";
 import "./ArticleInfo.css";
 import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb";
 import CommentTextArea from "../../Components/CommentTextArea/CommentTextArea";
+import { FaPenClip } from "react-icons/fa6";
+import { LuClock } from "react-icons/lu";
+import { FaEye } from "react-icons/fa";
+import { FaFolder } from "react-icons/fa";
+import { FaTags } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 export default function ArticleInfo() {
   return (
     <div>
@@ -31,20 +39,20 @@ export default function ArticleInfo() {
               </h1>
               <div className="flex flex-wrap gap-5 md:text-sm text-xs text-[#56626E] my-5">
                 <div className="flex items-center gap-1">
-                  <i className="fa-solid fa-pen"></i>
+                  <FaPenClip />
                   <span>حسین جوادی</span>
                 </div>
                 <div className="flex items-center gap-1">
-                  <i className="fa-solid fa-clock"></i>
+                  <LuClock />
                   <span>10 تیر 1402</span>
                 </div>
                 <div className="flex items-center gap-1">
-                  <i className="fa-solid fa-eye"></i>
+                  <FaEye />
                   <span>220</span>
                 </div>
 
                 <div className="flex items-center gap-1">
-                  <i className="fa-solid fa-folder"></i>
+                  <FaFolder />
                   <span>دسته بندی :تکنولوژی</span>
                 </div>
               </div>
@@ -142,13 +150,13 @@ export default function ArticleInfo() {
               >
                 <h3 className="text-sm font-bold">اشتراک گذاری :</h3>
                 <a href="#">
-                  <i className="fa-brands fa-telegram"></i>
+                  <FaTelegram />
                 </a>
                 <a href="#">
-                  <i className="fa-brands fa-facebook"></i>
+                  <FaFacebook />
                 </a>
                 <a href="#">
-                  <i className="fa-brands fa-linkedin"></i>
+                  <FaLinkedin />
                 </a>
               </div>
             </div>
@@ -160,7 +168,7 @@ export default function ArticleInfo() {
           <div className="lg:col-span-3 col-span-12">
             <div className="border border-solid border-gray-100 shadow-mainShadow p-5 rounded-sm text-[#7b868a]">
               <div className="flex items-center gap-x-1">
-                <i className="fa fa-tag"></i>
+                <FaTags />
                 <h6 className="font-bold">برچسب ها</h6>
               </div>
               <div className="mt-5 flex flex-wrap items-center gap-3 text-[#56626E]">

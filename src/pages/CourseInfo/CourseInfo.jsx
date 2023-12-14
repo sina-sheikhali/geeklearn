@@ -4,6 +4,19 @@ import CourseDetailBox from "../../Components/CourseDetailBox/CourseDetailBox";
 import LatestCourses from "../../Components/LatestCourses/LatestCourses";
 import CommentTextArea from "../../Components/CommentTextArea/CommentTextArea";
 import AccordionCourse from "../../Components/Accordion/AccordionCourse";
+import { FaInfoCircle } from "react-icons/fa";
+import { FaClock } from "react-icons/fa6";
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
+import { IoBagHandle } from "react-icons/io5";
+import { BiSolidVideoRecording } from "react-icons/bi";
+import { FaLink } from "react-icons/fa6";
+import { FaTags } from "react-icons/fa";
+import { FaEye } from "react-icons/fa";
+import { FaComments } from "react-icons/fa";
+import { FaUserGraduate } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa6";
+import { FaChalkboardTeacher } from "react-icons/fa";
 import "./CourseInfo.css";
 export default function CourseInfo() {
   return (
@@ -29,7 +42,7 @@ export default function CourseInfo() {
           <div>
             <a
               href="#"
-              className="text-mainColor rounded-sm py-1 px-4 bg-[#1d3a64] text-xs"
+              className="text-red-500 rounded-sm py-1 px-4 bg-gray-100 text-xs"
             >
               آموزش برنامه نویسی فرانت اند
             </a>
@@ -143,7 +156,7 @@ export default function CourseInfo() {
                   </button>
                 </div>
               </div>
-              <video id="intro" poster="/images/js.jpg">
+              <video id="intro" poster="images/js.jpg">
                 <source
                   type="video/mp4"
                   src="https://www.aparat.com/v/nFuy0"
@@ -165,7 +178,7 @@ export default function CourseInfo() {
                 <span className="font-bold">250,000 تومان</span>
               </div>
               <div className="flex items-center justify-center gap-x-1 text-white shadow-[0_5px_30px_rgba(70,72,77,0.08)] bg-[#1fbd50] p-3 rounded-lg">
-                <i className="fa-solid fa-graduation-cap w-6 h-6 self-start"></i>
+                <FaGraduationCap className="w-6 h-6 self-start" />
                 <a href="#" className="font-bold">
                   ثبت نام در دوره
                 </a>
@@ -174,36 +187,24 @@ export default function CourseInfo() {
             {/* { Finish Mobile designe} */}
             {/* Start course boxes info */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 py-1">
-              <CourseDetailBox
-                icon={"fa-circle-info"}
-                title={"وضعیت دوره"}
-                text={"تکمیل دوره"}
-              />
-              <CourseDetailBox
-                icon={"fa-clock"}
-                title={"مدت زمان دوره"}
-                text={"88 ساعت"}
-              />
-              <CourseDetailBox
-                icon={"fa-calendar-days"}
-                title={"آخرین به روز رسانی"}
-                text={"88 ساعت"}
-              />
-              <CourseDetailBox
-                icon={"fa-users"}
-                title={"روش پشتیبانی"}
-                text={"آنلاین"}
-              />
-              <CourseDetailBox
-                icon={"fa-bag-shopping"}
-                title={"پیش نیاز"}
-                text={"HTML & CSS"}
-              />
-              <CourseDetailBox
-                icon={"fa-video"}
-                title={"نوع مشاهده"}
-                text={"آنلاین"}
-              />
+              <CourseDetailBox title={"وضعیت دوره"} text={"تکمیل دوره"}>
+                <FaInfoCircle className="text-mainColor w-6 h-6" />
+              </CourseDetailBox>
+              <CourseDetailBox title={"مدت زمان دوره"} text={"88 ساعت"}>
+                <FaClock className="text-mainColor w-6 h-6" />
+              </CourseDetailBox>
+              <CourseDetailBox title={"آخرین به روز رسانی"} text={"88 ساعت"}>
+                <FaCalendarAlt className="text-mainColor w-6 h-6" />
+              </CourseDetailBox>
+              <CourseDetailBox title={"روش پشتیبانی"} text={"آنلاین"}>
+                <FaUsers className="text-mainColor w-6 h-6" />
+              </CourseDetailBox>
+              <CourseDetailBox title={"پیش نیاز"} text={"HTML & CSS"}>
+                <IoBagHandle className="text-mainColor w-6 h-6" />
+              </CourseDetailBox>
+              <CourseDetailBox title={"نوع مشاهده"} text={"آنلاین"}>
+                <BiSolidVideoRecording className="text-mainColor w-6 h-6" />
+              </CourseDetailBox>
             </div>
             {/* Finish course boxes info */}
             {/* Start teacher info box */}
@@ -221,7 +222,7 @@ export default function CourseInfo() {
                   </div>
                 </div>
                 <div className="text-white bg-mainColor flex p-2.5 rounded-md font-bold gap-x-1">
-                  <i className="fas fa-chalkboard-teacher"></i>
+                  <FaChalkboardTeacher className="w-5 h-5" />
                   <span>مدرس</span>
                 </div>
               </div>
@@ -303,7 +304,7 @@ export default function CourseInfo() {
                 <span className="font-bold">250,000 تومان</span>
               </div>
               <div className="flex items-center justify-center gap-x-1 text-white shadow-[0_5px_30px_rgba(70,72,77,0.08)] bg-[#1fbd50] p-3 rounded-lg">
-                <i className="fa-solid fa-graduation-cap w-6 h-6 self-start"></i>
+                <FaGraduationCap className="w-6 h-6 self-start" />
                 <a href="#" className="font-bold">
                   ثبت نام در دوره
                 </a>
@@ -312,7 +313,7 @@ export default function CourseInfo() {
 
             <div className="bg-white p-5 my-3 rounded-sm shadow-[0_5px_30px_rgba(70,72,77,0.08)]">
               <div className="border-2 border-solid border-slate-200 rounded-md p-4 flex items-center justify-center gap-x-1">
-                <i className="fas fa-user-graduate w-7 h-7 self-start text-gray-600"></i>
+                <FaUserGraduate className="w-6 h-6  text-gray-500" />
                 <span>تعداد دانشجو:</span>
                 <span className="bg-gray-400 p-2 text-white rounded-md">
                   180
@@ -320,12 +321,12 @@ export default function CourseInfo() {
               </div>
               <div className="flex justify-center items-center gap-x-3 mt-5 text-[#7b868a]">
                 <div className="flex items-center gap-x-1 border-l border-solid border-gray-200 px-5">
-                  <i className="far fa-comments w-7 h-7 ml-2"></i>
+                  <FaComments className="w-6 h-6 ml-2" />
                   <span>67</span>
                   <span>دیدگاه</span>
                 </div>
                 <div className="flex items-center gap-x-1 px-5">
-                  <i className="far fa-eye w-7 h-7 ml-2"></i>
+                  <FaEye className="w-6 h-6 ml-2" />
                   <span>1,520</span>
                   <span>بازدید</span>
                 </div>
@@ -333,7 +334,7 @@ export default function CourseInfo() {
             </div>
             <div className="bg-white p-5 my-3 rounded-sm shadow-[0_5px_30px_rgba(70,72,77,0.08)] text-[#7b868a]">
               <div className="flex items-center gap-x-1">
-                <i className="fas fa-link w-6 h-6"></i>
+                <FaLink className="w-6 h-6" />
                 <h6 className="font-bold">لینک کوتاه</h6>
               </div>
               <span className="flex justify-center mt-3 p-2 border border-solid border-gray-300 rounded-md text-sm">
@@ -342,7 +343,7 @@ export default function CourseInfo() {
             </div>
             <div className="bg-white p-5 my-3 rounded-sm shadow-[0_5px_30px_rgba(70,72,77,0.08)] text-[#7b868a]">
               <div className="flex items-center gap-x-1">
-                <i className="fa fa-tag"></i>
+                <FaTags className="w-6 h-6" />
                 <h6 className="font-bold">برچسب ها</h6>
               </div>
               <div className="mt-5 flex flex-wrap items-center gap-3 text-[#56626E]">
