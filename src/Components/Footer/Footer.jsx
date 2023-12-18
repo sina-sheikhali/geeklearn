@@ -3,7 +3,7 @@ import FooterBox from "../FooterBox/FooterBox";
 
 export default function Footer() {
   return (
-    <footer className="shadow-[0_10px_50px_rgba(54,201,244,0.22)] p-10 mt-4">
+    <footer className="shadow-[0_10px_50px_rgba(54,201,244,0.22)] p-10 mt-4 ">
       <div className="container max-w-[1280px] px-4">
         <img src="images/logo.png" alt="" className="mb-6 w-16" />
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-y-10  px-7">
