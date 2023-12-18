@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/geeklearn/static/css/main.fa07c963.css",
-    "main.js": "/geeklearn/static/js/main.215e4dc3.js",
+    "main.css": "/geeklearn/static/css/main.51f8dd84.css",
+    "main.js": "/geeklearn/static/js/main.7eeb0d4b.js",
+    "static/media/bg-login.jpg": "/geeklearn/static/media/bg-login.c811fd6d0bd51e7b23bb.jpg",
     "static/media/header-bg.png": "/geeklearn/static/media/header-bg.1ec0d32e9ecc2e319fe0.png",
     "static/media/Samim-FD.ttf": "/geeklearn/static/media/Samim-FD.15c65e7d33ac6dc91269.ttf",
     "index.html": "/geeklearn/index.html",
-    "main.fa07c963.css.map": "/geeklearn/static/css/main.fa07c963.css.map",
-    "main.215e4dc3.js.map": "/geeklearn/static/js/main.215e4dc3.js.map"
+    "main.51f8dd84.css.map": "/geeklearn/static/css/main.51f8dd84.css.map",
+    "main.7eeb0d4b.js.map": "/geeklearn/static/js/main.7eeb0d4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa07c963.css",
-    "static/js/main.215e4dc3.js"
+    "static/css/main.51f8dd84.css",
+    "static/js/main.7eeb0d4b.js"
   ]
 }
