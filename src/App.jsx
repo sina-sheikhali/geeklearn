@@ -3,6 +3,7 @@ import { useRoutes } from "react-router-dom";
 import Landing from "./Components/Landing/Landing";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
+import "./App.css";
 import React from "react";
 
 function App() {

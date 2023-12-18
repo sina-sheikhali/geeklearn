@@ -7,7 +7,7 @@ export default function CourseBox() {
   return (
     <div className="border border-solid border-[#00000020] rounded-lg overflow-hidden">
       <div>
-        <Link to="/course-info/:courseName" className="flex overflow-hidden">
+        <Link to="/course-info/js" className="flex overflow-hidden">
           <img
             src="https://xigmalearn.ir/themes/education/eduBerg/assets/img/procuct-php-start-500x286.png"
             alt=""

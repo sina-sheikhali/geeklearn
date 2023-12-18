@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
+
 export default function LastArticle() {
   return (
     <div className="container max-w-[1280px] bg-[url('https://xigmalearn.ir/themes/education/eduBerg/assets/img/blog-bg.svg')] bg-left-bottom bg-contain bg-no-repeat my-20 p-5 ">
