@@ -1,4 +1,5 @@
 import React from "react";
+import Input from "../../Components/Form/Input";
 import { Link } from "react-router-dom";
 export default function Register() {
   return (
@@ -10,10 +11,11 @@ export default function Register() {
         <h1 className="text-4xl font-bold text-center mb-6">ثبت نام</h1>
         <form action="">
           <div className="relative my-5">
-            <input
-              type="text"
+            <Input
               className="block w-72 py-2.5 px-0 text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:focus:border-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+              type="text"
               placeholder=""
+              element="input"
             />
             <label
               htmlFor=""
@@ -23,10 +25,11 @@ export default function Register() {
             </label>
           </div>
           <div className="relative my-5">
-            <input
-              type="password"
+            <Input
               className="block w-72 py-2.5 px-0 text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:focus:border-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+              type="password"
               placeholder=""
+              element="input"
             />
             <label
               htmlFor=""
@@ -36,10 +39,11 @@ export default function Register() {
             </label>
           </div>
           <div className="relative">
-            <input
-              type="password"
+            <Input
               className="block w-72 py-2.5 px-0 text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:focus:border-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+              type="password"
               placeholder=""
+              element="input"
             />
             <label
               htmlFor=""

@@ -1,4 +1,5 @@
 import React from "react";
+import Input from "../../Components/Form/Input";
 import { Link } from "react-router-dom";
 
 export default function Login() {
@@ -11,10 +12,11 @@ export default function Login() {
         <h1 className="text-4xl font-bold text-center mb-6">ورود</h1>
         <form action="">
           <div className="relative my-5">
-            <input
-              type="text"
+            <Input
               className="block w-72 py-2.5 px-0 text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:focus:border-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+              type="text"
               placeholder=""
+              element="input"
             />
             <label
               htmlFor=""
@@ -24,11 +26,13 @@ export default function Login() {
             </label>
           </div>
           <div className="relative">
-            <input
-              type="password"
+            <Input
               className="block w-72 py-2.5 px-0 text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:focus:border-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+              type="password"
               placeholder=""
+              element="input"
             />
+
             <label
               htmlFor=""
               className="absolute text-sm duration-300 transform translate scale-100 top-3 right-0 z-10 origin-[0] peer-focus:right-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100  peer-focus:-translate-y-6"
